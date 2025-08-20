@@ -227,16 +227,17 @@ export default function EventsList(): JSX.Element {
               </div>
 
               <div className="flex gap-3 items-center">
-                <Link
-                  to={`/events/${ev.slug}`}
+                <div
+
                   onClick={() => {
                     // keep original navigation available — will still navigate
                     closeModal();
                   }}
-                  className="inline-flex items-center px-4 py-2 rounded-lg text-white bg-[#68BBFF] hover:brightness-95"
+                  className="inline-flex items-center px-4 py-2 rounded-lg text-white bg-[#68BBFF] hover:brightness-95
+                  shadow-[inset_0px_0.89px_0.89px_0_rgba(255,255,255,0.4),inset_0px_-3.57px_1.78px_0_rgba(65,157,234,0.4),0px_7.14px_17.84px_0_rgba(79,160,227,0.45)]"
                 >
                   Open full event page
-                </Link>
+                </div>
 
                 <button onClick={closeModal} className="px-4 py-2 rounded-lg border border-slate-200">
                   Close

@@ -1,5 +1,5 @@
 import { useAnimate ,motion, stagger} from 'motion/react'
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 
 const Fourth = () => {
     const [scope,animate] = useAnimate();

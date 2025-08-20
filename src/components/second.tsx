@@ -1,5 +1,4 @@
 
-import {motion} from "motion/react"
 export const Second = () => {
   return (
   <div className="h-screen font-inter flex items-center justify-center bg-[#F0F0F0]">

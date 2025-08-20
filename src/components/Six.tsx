@@ -96,9 +96,9 @@ const Six = () => {
                 </div>
                 <div className='flex gap-11'>
                     <div className='flex items-center gap-7 text-[14.5px] font-normal cursor-pointer '>
-                        <motion.span initial={{ y: -20, opacity: 0 }} className='inline-block nab'>Home</motion.span>
-                        <motion.span initial={{ y: -20, opacity: 0 }} className='inline-block nab' >Events</motion.span>
-                        <motion.span initial={{ y: -20, opacity: 0 }} className='inline-block nab'>Workshop</motion.span>
+                    <a href="/" >    <motion.span initial={{ y: -20, opacity: 0 }} className='inline-block nab'>Home</motion.span></a>
+                        <a href="/event"><motion.span initial={{ y: -20, opacity: 0 }} className='inline-block nab' >Events</motion.span></a>
+<a href="/event">                        <motion.span initial={{ y: -20, opacity: 0 }} className='inline-block nab'>Workshop</motion.span></a>
                     </div>
                     <button className=' text-white max-w-sm py-2 px-6 rounded-xl bg-[#68BBFF]
         shadow-[inset_0px_0.89px_0.89px_0_rgba(255,255,255,0.4),inset_0px_-3.57px_1.78px_0_rgba(65,157,234,0.4),0px_7.14px_17.84px_0_rgba(79,160,227,0.45)]'>
